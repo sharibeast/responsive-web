@@ -51,6 +51,10 @@ body {
     height: 237px;
 }
 
+.center {
+    text-align: center;
+}
+
 .profile-name {
     font-weight: 600;
     font-size: 14px;
@@ -87,4 +91,44 @@ body {
 
 .self {
     align-self: center;
+}
+
+@media screen and (min-width:640px) {
+    .fix-width {
+        width: 700px;
+    }
+
+    .mb {
+        margin-bottom: 60px;
+    }
+
+    body {
+        margin: 0 100px;
+    }
+
+    .row {
+        flex-direction: row;
+    }
+
+    .flex-row {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .pos {
+        position: absolute;
+        right: 250px;
+    }
+
+    .width-div {
+        width: 500px;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
 }
