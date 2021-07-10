@@ -22,85 +22,61 @@
     />
     <link rel="stylesheet" href="./main.css" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.0.0-insiders.4a070ac/tailwind.min.css"
+      integrity="sha512-vJu7D5BpjnNXVpLBrl9LKLvmXBNjiLwge8EOZ/YS9XwiChpfKLAlydwIZvoJaDE3LI/kr3goH0MzDzNbBgyoOQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>my-team-page-master</title>
   </head>
-  <body>
-    <div class="flex-row p-10 mt-10 fix-width mb">
-      <h6 class="title">The creative crew</h6>
-      <div class="pos">
-        <h3 class="sub-title">who we are</h3>
-        <p class="paragraph width-div">
-          We are team of creatively diverse driven innovative individuals
+  <body class="m-3">
+    <div class="mt-10">
+      <h6 class="mb-8 text-3xl font-bold">The creative crew</h6>
+      <div class="">
+        <h3 class="mb-2 text-2xl font-semibold uppercase">who we are</h3>
+        <p class="text-xl">
+          We are team of creatively diverse. driven. innovative individuals
           working in various locations from the world.
         </p>
       </div>
     </div>
-    <div class="relative flex parent wrap">
+    <div class="grid grid-cols-2 mt-4 md:grid-cols-2">
       <!-- first picture -->
-      <div class="relative card-width">
+      <div class="w-40">
         <div>
           <img class="profile" src="./assets/photo1.png" alt="product-owner" />
         </div>
-        <p class="profile-title">product owner</p>
-        <p class="profile-name">Bill Mahoney</p>
+        <p class="">product owner</p>
+        <p class="">Bill Mahoney</p>
       </div>
       <!-- end of the first picture -->
-
-      <!-- second picture -->
-      <div class="relative card-width">
+      <!-- start of second picture -->
+      <div class="w-40 inset-y-16">
         <div>
-          <img class="profile" src="./assets/photo2.png" alt="product-owner" />
+          <img class="profile" src="./assets/photo1.png" alt="product-owner" />
         </div>
-        <p class="profile-title">art director</p>
-        <p class="profile-name">Saba Cabrela</p>
+        <p class="rotate-90">product owner</p>
+        <p class="">Bill Mahoney</p>
+      </div>
+       <div class="w-40">
+        <div>
+          <img class="profile" src="./assets/photo1.png" alt="product-owner" />
+        </div>
+        <p class="">product owner</p>
+        <p class="">Bill Mahoney</p>
       </div>
 
-      <!-- end of second picture -->
 
-      <!-- third picture -->
-      <div class="relative card-width">
-        <div>
-          <img class="profile" src="./assets/photo3.png" alt="product-owner" />
-        </div>
-        <p class="profile-title">Tech lead</p>
-        <p class="profile-name">Shae lee</p>
-      </div>
-      <!-- end of third picture -->
 
-      <!-- forth picture -->
 
-      <div class="relative card-width">
-        <div>
-          <img class="profile" src="./assets/photo4.png" alt="product-owner" />
-        </div>
-        <p class="profile-title">ux designer</p>
-        <p class="profile-name">skyla lu</p>
-      </div>
-      <!-- end of forth picture -->
 
-      <!-- fifth picture -->
-      <div class="relative card-width">
-        <div>
-          <img class="profile" src="./assets/photo5.png" alt="product-owner" />
-        </div>
-        <p class="profile-title">Developer</p>
-        <p class="profile-name">Griff Richards</p>
-      </div>
-      <!-- end of fifth picture -->
 
-      <!-- start of the 6ix picture -->
-      <div class="relative card-width">
-        <div>
-          <img class="profile" src="./assets/photo2.png" alt="product-owner" />
-        </div>
-        <p class="profile-title">developer</p>
-        <p class="profile-name">Stan John</p>
-      </div>
-      <!-- end of the picture -->
-    </div>
 
-    <footer class="mt-10">
-      <p class="center">
+    <footer class="">
+      <p class="">
         created by <a href="http://twitter.com/sharibeast">sharibeast</a>
       </p>
     </footer>
